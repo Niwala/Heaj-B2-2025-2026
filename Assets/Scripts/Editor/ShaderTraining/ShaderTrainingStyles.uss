@@ -1,0 +1,163 @@
+VisualElement {
+}
+
+.toolbar {
+    background-color: rgb(56, 56, 56);
+    border-top-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0.36);
+    border-right-color: rgba(0, 0, 0, 0.36);
+    border-top-color: rgba(0, 0, 0, 0.36);
+    border-bottom-color: rgba(0, 0, 0, 0.36);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-shrink: 0;
+    flex-grow: 1;
+    min-height: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.label {
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-shrink: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-top: 1px;
+    padding-right: 7px;
+    padding-bottom: 1px;
+    padding-left: 7px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.label:hover {
+    background-color: rgb(36, 36, 36);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.label:active {
+    background-color: rgb(25, 25, 25);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.button {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-left-color: rgba(0, 0, 0, 0.38);
+    border-right-color: rgba(0, 0, 0, 0.38);
+    border-top-color: rgba(0, 0, 0, 0.38);
+    border-bottom-color: rgba(0, 0, 0, 0.38);
+    background-color: rgb(81, 81, 81);
+    flex-shrink: 0;
+    min-width: 22px;
+    min-height: 22px;
+    -unity-font-style: bold;
+    font-size: 12px;
+    color: rgb(152, 152, 152);
+    padding-top: 0;
+    padding-right: 5px;
+    padding-bottom: 0;
+    padding-left: 5px;
+    margin-top: 0;
+    margin-right: 4px;
+    margin-bottom: 0;
+    margin-left: 4px;
+    -unity-text-align: middle-center;
+    max-height: 22px;
+}
+
+.button:hover {
+    background-color: rgb(103, 103, 103);
+}
+
+.button:active {
+    background-color: rgb(48, 48, 48);
+}
+
+.group {
+    flex-direction: row;
+}
+
+.serie-list {
+    position: absolute;
+    bottom: 30px;
+    flex-shrink: 0;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(42, 42, 42);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0.4);
+    border-right-color: rgba(0, 0, 0, 0.4);
+    border-top-color: rgba(0, 0, 0, 0.4);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    visibility: visible;
+    overflow: hidden;
+    display: none;
+}
+
+.serie-list-scroll {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.serie-list-item {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+    flex-shrink: 0;
+    padding-left: 3px;
+    margin-top: 1px;
+    margin-right: 2px;
+    margin-bottom: 1px;
+    margin-left: 2px;
+    -unity-text-align: middle-left;
+    max-height: 20px;
+    min-height: 20px;
+    padding-top: 0;
+}
+
+.serie-list-item:hover {
+    background-color: rgb(70, 96, 124);
+}
