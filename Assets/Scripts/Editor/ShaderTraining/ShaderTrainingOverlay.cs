@@ -321,6 +321,11 @@ public static class TempOverlayController
             Vector3 worldPos = bounds.center + Vector3.up * (bounds.extents.y + 0.2f);
             Vector2 p = sceneView.camera.WorldToScreenPoint(worldPos);
             p.y = sceneView.camera.pixelHeight - p.y;
+
+            float dpiScale = EditorGUIUtility.pixelsPerPoint;
+            p /= dpiScale;
+
+
             if (GUI.Button(new Rect(p.x - 50, p.y, 100, 16), "Open"))
             {
                 AssetDatabase.OpenAsset(renderer.sharedMaterial.shader);
