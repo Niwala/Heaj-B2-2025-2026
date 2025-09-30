@@ -3742,7 +3742,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1433108724
 Transform:
   m_ObjectHideFlags: 0
@@ -3781,7 +3781,7 @@ MonoBehaviour:
     $ practiceShader
 
     $ solutionShader'
-  practiceShader: {fileID: -6465566751694194690, guid: aa5c662e0873ab94aa482add0e6bb128, type: 3}
+  practiceShader: {fileID: -6465566751694194690, guid: 492fdc1e73dbcd74a98554ac0b4a09a5, type: 3}
   solutionShader: {fileID: -6465566751694194690, guid: 7cb4d6decf466b34599a497ca21d88a6, type: 3}
   practice: {fileID: 1576310621}
   solution: {fileID: 1147343035}
@@ -3950,7 +3950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1496160367
 Transform:
   m_ObjectHideFlags: 0
@@ -4278,7 +4278,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: aa5c662e0873ab94aa482add0e6bb128, type: 3}
+  - {fileID: -876546973899608171, guid: 492fdc1e73dbcd74a98554ac0b4a09a5, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5058,7 +5058,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1826632251
 Transform:
   m_ObjectHideFlags: 0
@@ -5812,7 +5812,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2069526980
 Transform:
   m_ObjectHideFlags: 0
