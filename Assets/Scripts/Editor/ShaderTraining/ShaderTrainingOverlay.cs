@@ -11,6 +11,9 @@ using UnityEngine.UIElements;
 
 public class ShaderNotesOverlay : VisualElement
 {
+    const string parentPrefKey = "ShaderTraining.parentID";
+    const string notePrefKey = "ShaderTraining.noteID";
+
     public static ShaderTraining currentNote;
     public static List<NoteHierarchy> roots = new List<NoteHierarchy>();
 
@@ -121,10 +124,25 @@ public class ShaderNotesOverlay : VisualElement
         //Null check
         if (parentID == -1)
         {
-            parentID = 0;
-            noteID = 0;
+            parentID = EditorPrefs.GetInt(parentPrefKey, 0);
+            noteID = EditorPrefs.GetInt(notePrefKey, 0);
+
+            if (parentID >= roots.Count)
+            {
+                parentID = 0;
+                noteID = 0;
+            }
+
+            if (noteID >= roots[parentID].Count)
+            {
+                noteID = 0;
+            }
+
             note = roots[parentID][noteID];
         }
+
+        EditorPrefs.SetInt(parentPrefKey, parentID);
+        EditorPrefs.SetInt(notePrefKey, noteID);
 
         //Enable / Disable objects
         foreach (var root in roots)
