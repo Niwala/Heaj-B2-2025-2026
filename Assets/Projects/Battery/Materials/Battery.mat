@@ -122,7 +122,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
-    - _Charge_Level: 0
+    - _Charge_Level: 0.54
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
@@ -158,6 +158,8 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0.91799474, g: 3.0279562, b: 0.24280787, a: 1}
     - _EmptyColor: {r: 4.594794, g: 0.41514003, b: 0.072075196, a: 0}
+    - _Empty_Color: {r: 5.9921575, g: 0.22761907, b: 0.042370953, a: 0}
+    - _Full_Color: {r: 0.1601582, g: 0.7490196, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
