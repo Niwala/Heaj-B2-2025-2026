@@ -2253,7 +2253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &665889233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5928,7 +5928,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: 583f9cfc1fac58c4a8fee7609d327558, type: 3}
+  - {fileID: -876546973899608171, guid: fbdbbe54b4332ef4dba4f55d936f8dd8, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6379,7 +6379,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1638397207
 Transform:
   m_ObjectHideFlags: 0
@@ -6417,7 +6417,7 @@ MonoBehaviour:
     est toujours \xE0 0.2, elle n'a pas \xE9t\xE9 modifi\xE9e.\n\nIl n'y a besoin
     d'aucune branche / aucun if pour cet exercice.\n\n$ practiceShader\n$ solutionShader\n"
   practiceShader: {fileID: -6465566751694194690, guid: 578e2fdc6c437fa409472bb1ffa57542, type: 3}
-  solutionShader: {fileID: -6465566751694194690, guid: 583f9cfc1fac58c4a8fee7609d327558, type: 3}
+  solutionShader: {fileID: -6465566751694194690, guid: fbdbbe54b4332ef4dba4f55d936f8dd8, type: 3}
   practice: {fileID: 481911516}
   solution: {fileID: 1562483579}
   objects: []
@@ -6853,7 +6853,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1826632251
 Transform:
   m_ObjectHideFlags: 0
@@ -7790,7 +7790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2069526980
 Transform:
   m_ObjectHideFlags: 0
