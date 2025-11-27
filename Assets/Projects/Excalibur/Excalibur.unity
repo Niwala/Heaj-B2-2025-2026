@@ -186,7 +186,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e79b65d65c4ab24438bd78080bfe10d3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 6e7b49e5207f86444b42d2728172910f, type: 2}
+      objectReference: {fileID: 2100000, guid: 0342997ca553aab469f7e4ee4df47bcd, type: 2}
     - target: {fileID: 919132149155446097, guid: e79b65d65c4ab24438bd78080bfe10d3, type: 3}
       propertyPath: m_Name
       value: Background
@@ -452,8 +452,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.10907607, y: -0.060496703, z: 0.006716398, w: 0.99216807}
-  m_LocalPosition: {x: 0.80138886, y: 2.4976337, z: -4.3488045}
+  m_LocalRotation: {x: 0.056627378, y: -0.011536736, z: 0.004704585, w: 0.9983177}
+  m_LocalPosition: {x: -0.67200094, y: 5.589945, z: -11.748899}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
